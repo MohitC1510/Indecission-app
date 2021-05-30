@@ -1,0 +1,28 @@
+.header{
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    margin-bottom: $m-size;
+    padding: $m-size;
+    // border: 3px solid black;
+    
+    background: $off-black;
+    color: $off-white;
+}
+.header__title{
+    font-family: 'Crete Round', serif;
+    font-size: 3.6;
+    margin: 0;
+}
+.header__subtitle{
+    font-family: 'Roboto Mono', monospace;
+    font-size: $m-size;
+    margin: 0 ;
+    font-weight: 500;
+}
+@media (min-width: $desktop-breakpoint){
+    .header{
+        margin-bottom: $xl-size;
+    }
+}

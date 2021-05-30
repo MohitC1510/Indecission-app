@@ -1,0 +1,14 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Roboto Mono', monospace;
+    font-size: $m-size;
+    background-color: lighten($off-black, 10%);
+}
+button{
+    cursor: pointer;
+}
+button:disabled{
+    cursor: default;
+}

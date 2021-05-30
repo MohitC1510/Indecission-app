@@ -1,0 +1,24 @@
+.widget-header{
+    display: flex;
+    color: $off-white;
+    justify-content: space-between;
+     background: lighten($off-black, 20%);
+     padding: $s-size;
+}
+.widget-header__title{
+    margin: 0;
+}
+.widget{
+    background: lighten($off-black, 40%);
+    margin-bottom: $xl-size;
+    // font-size: 2rem;
+}
+
+.message{
+    text-align: center;
+    color: $off-white;
+    font-family: 'Odibee Sans', cursive;
+    padding: $l-size;
+    border-bottom: 0.3rem solid lighten($off-black,(50%));
+    margin: 0;
+}
